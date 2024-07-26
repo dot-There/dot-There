@@ -23,6 +23,12 @@
 		EDB66B1F2C539F8F002A4C67 /* PickAlbumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB66B1D2C539F8F002A4C67 /* PickAlbumView.swift */; };
 		EDB66B202C539F8F002A4C67 /* PickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB66B1E2C539F8F002A4C67 /* PickView.swift */; };
 		EDB66B232C539FC8002A4C67 /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB66B222C539FC8002A4C67 /* MyView.swift */; };
+		EDB66B2C2C53B14C002A4C67 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB66B262C53B14C002A4C67 /* ProfileView.swift */; };
+		EDB66B2D2C53B14C002A4C67 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB66B272C53B14C002A4C67 /* InputView.swift */; };
+		EDB66B2E2C53B14C002A4C67 /* InputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB66B282C53B14C002A4C67 /* InputField.swift */; };
+		EDB66B2F2C53B14C002A4C67 /* SectionLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB66B292C53B14C002A4C67 /* SectionLabel.swift */; };
+		EDB66B302C53B14C002A4C67 /* PhotosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB66B2A2C53B14C002A4C67 /* PhotosView.swift */; };
+		EDB66B312C53B14C002A4C67 /* BlackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB66B2B2C53B14C002A4C67 /* BlackButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +49,12 @@
 		EDB66B1D2C539F8F002A4C67 /* PickAlbumView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickAlbumView.swift; sourceTree = "<group>"; };
 		EDB66B1E2C539F8F002A4C67 /* PickView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickView.swift; sourceTree = "<group>"; };
 		EDB66B222C539FC8002A4C67 /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
+		EDB66B262C53B14C002A4C67 /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		EDB66B272C53B14C002A4C67 /* InputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		EDB66B282C53B14C002A4C67 /* InputField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputField.swift; sourceTree = "<group>"; };
+		EDB66B292C53B14C002A4C67 /* SectionLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionLabel.swift; sourceTree = "<group>"; };
+		EDB66B2A2C53B14C002A4C67 /* PhotosView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosView.swift; sourceTree = "<group>"; };
+		EDB66B2B2C53B14C002A4C67 /* BlackButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlackButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +89,9 @@
 			children = (
 				EDB66A822C539C8D002A4C67 /* dot_ThereApp.swift */,
 				EDB66B032C539E6D002A4C67 /* Model */,
-				EDB66B052C539E91002A4C67 /* ViewModel */,
 				EDB66B042C539E79002A4C67 /* View */,
+				EDB66B052C539E91002A4C67 /* ViewModel */,
+				EDB66B252C53B03D002A4C67 /* Components */,
 				EDB66A862C539C8E002A4C67 /* Assets.xcassets */,
 				EDB66A882C539C8E002A4C67 /* Preview Content */,
 			);
@@ -159,6 +172,19 @@
 			path = MyView;
 			sourceTree = "<group>";
 		};
+		EDB66B252C53B03D002A4C67 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				EDB66B2B2C53B14C002A4C67 /* BlackButton.swift */,
+				EDB66B282C53B14C002A4C67 /* InputField.swift */,
+				EDB66B272C53B14C002A4C67 /* InputView.swift */,
+				EDB66B2A2C53B14C002A4C67 /* PhotosView.swift */,
+				EDB66B262C53B14C002A4C67 /* ProfileView.swift */,
+				EDB66B292C53B14C002A4C67 /* SectionLabel.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -229,17 +255,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDB66B302C53B14C002A4C67 /* PhotosView.swift in Sources */,
+				EDB66B312C53B14C002A4C67 /* BlackButton.swift in Sources */,
 				EDB66B232C539FC8002A4C67 /* MyView.swift in Sources */,
 				EDB66B142C539F0F002A4C67 /* PhotoDetailView.swift in Sources */,
 				EDB66A832C539C8D002A4C67 /* dot_ThereApp.swift in Sources */,
 				EDB66B202C539F8F002A4C67 /* PickView.swift in Sources */,
 				EDB66B1A2C539F4A002A4C67 /* AddView.swift in Sources */,
+				EDB66B2D2C53B14C002A4C67 /* InputView.swift in Sources */,
 				EDB66B102C539F0F002A4C67 /* DetailView.swift in Sources */,
 				EDB66B082C539EE3002A4C67 /* MainTabView.swift in Sources */,
+				EDB66B2C2C53B14C002A4C67 /* ProfileView.swift in Sources */,
 				EDB66B1F2C539F8F002A4C67 /* PickAlbumView.swift in Sources */,
 				EDB66B192C539F4A002A4C67 /* InviteView.swift in Sources */,
+				EDB66B2E2C53B14C002A4C67 /* InputField.swift in Sources */,
 				EDB66B1B2C539F4A002A4C67 /* HiddenAlbumView.swift in Sources */,
 				EDB66B112C539F0F002A4C67 /* AlbumView.swift in Sources */,
+				EDB66B2F2C53B14C002A4C67 /* SectionLabel.swift in Sources */,
 				EDB66B132C539F0F002A4C67 /* EditView.swift in Sources */,
 				EDB66B122C539F0F002A4C67 /* MapDetailView.swift in Sources */,
 				EDB66B092C539EE3002A4C67 /* DotThereView.swift in Sources */,
